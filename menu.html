@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .container{
+            display: flex;
+        }
+        .sub_class{
+            display: flex;
+        }
+        
+        #salad1,#salad2,#salad3,#salad4,#salad5,#salad6,#salad7,#salad8,#salad9,#salad10{
+            height: 300px;
+            width: 300px;
+            border: 1px solid black;
+            margin-left:50px;
+            margin-top: 30px;
+            
+        }
+        p{
+             text-align: center;
+            margin-top:320px;
+            font-size: 25px;
+            color:green;
+        }
+        #salad1{
+            background-image: url(/salad/veg1.jpg);
+            background-size:cover;
+        }
+        #salad2{
+            background-image: url(/salad/veg2.jpg);
+            background-size:cover;
+        }
+        #salad3{
+            background-image: url(/salad/veg3.jpg);
+            background-size:cover;
+        }
+        #salad4{
+            background-image: url(/salad/veg4.jpg);
+            background-size:cover;
+        }
+        #salad5{
+            background-image: url(/salad/veg5.jpg);
+            background-size:cover;
+        }
+        #salad6{
+            background-image: url(/salad/nonveg2.jpg);
+            background-size:cover;
+        }
+        #salad7{
+            background-image: url(/salad/nonveg3.jpg);
+            background-size:cover;
+        }
+        #salad8{
+            background-image: url(/salad/nonveg4.jpg);
+            background-size:cover;
+        }
+        #salad9{
+            background-image: url(/salad/nonveg5.jpg);
+            background-size:cover;
+        }
+        #salad10{
+            background-image: url(/salad/nonveg1);
+            background-size:cover;
+        }
+        
+        h2{
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+            margin-top:80px;
+            margin-bottom: 30px;
+            color: green;
+            /* background-color: rgb(124, 189, 124); */
+        }
+        .nonveg{
+            /* background-color:rgba(202, 110, 110, 0.701); */
+            margin-top:90px;
+            margin-bottom: 50px;
+            color: brown;
+        }
+        button{
+            padding:12px;
+            font-size:25px;
+            color:rgb(7, 7, 7);
+            background-color: rgb(127, 198, 127);
+            cursor: pointer;
+            
+        }
+        button:hover{
+            outline-color: green;
+            color: brown;
+        }
+        footer{
+            height:400px;
+            width: 100%;
+            background-color:rgb(215, 198, 177);
+        }
+        /* footer */
+        footer{
+            width: 100%;
+            padding: 20px 0;
+            background-color: #96d894;
+            opacity: 0.8;
+        }
+        footer .des,footer .category,footer .links, footer .contact {
+            padding: 5px;
+            background-color: #96d894;
+        }
+        .category{
+            list-style-type: none;
+            font-size:30px;
+            margin-left: 200px;
+        }
+        .links li{
+            list-style-type: none;
+            font-size:30px;
+            margin-left: 100px;
+        }
+        .contact li{
+            list-style-type: none;
+            font-size:30px;
+            margin-left: 200px;
+        }
+        h2{
+            font-size: 35px;
+        }
+        .copy{
+            margin-left: 600px;
+            font-size:25px;
+        }
+        .copy span{
+            font-size: larger;
+            color:brown
+        }
+        .fab{
+            position: absolute;
+            transform: scale(2,2);
+            width: 30px;
+            margin-top: 55px;
+
+        }
+        .fa-facebook-f{
+            margin-left: 250px;
+        }
+        .fa-instagram{
+            margin-left: 280px;
+        }
+        .fa-twitter{
+            margin-left: 320px;
+        }
+        .fa-youtube{
+            margin-left: 360px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div id="salad1" class="saladall"> <p>cucumber salad with carrots</p> <button>Order Now</button> </div>
+    <div id="salad2" class="saladall"> <p>Cherry tomato salad</p> <button>Order Now</button> </div>
+    <div id="salad3" class="saladall"> <p>cucumber salad with chilli </p> <button>Order Now</button> </div>
+    <div id="salad4" class="saladall"> <p>Paneer olive salad</p> <button>Order Now</button> </div>
+    <div id="salad5" class="saladall"> <p>Corn and cucumber salad</p> <button>Order Now</button ></div>
+  
+</div>
+<br><br><br><br><br><br>
+<h2>VEG-SALAD</h2>
+<div class="sub_class">
+ 
+    <div id="salad6" class="saladall">  <p>Indian chicken salad </p><button>Order Now</button></div>
+    <div id="salad7" class="saladall"> <p>Chicken Olive salad </p><button>Order Now</button></div>
+    <div id="salad8" class="saladall"> <p>Boiled Prawn salad </p><button>Order Now</button></div>
+    <div id="salad9" class="saladall"> <p>Fried prawn salad</p><button>Order Now</button></div>
+    <div id="salad10" class="saladall"> <p>Korean chicken salad </p><button>Order Now</button></div>
+</div>
+
+<br><br><br><br><br>
+<h2 class="nonveg">NON_VEG-SALAD </h2>
+
+<div class="footer">
+    <footer>
+        <div class="container">
+          
+                    <div class="social">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>                  
+                <!-- </div> -->
+                <div class="category">
+                    <h2>Best category</h2>
+                    <li>Salad</li>
+                    <li>Veg_Salad</li>
+                    <li>NON_Veg salad</li>
+                    
+                </div>
+                <div class="links">
+                    <h2 style="margin-left: 100px;">important links</h2>
+                    <li>home</li>
+                    <li>Menu</li>
+                    <li>Order</li>
+                    <li>Contact</li>
+                </div>
+                <div class="contact">
+                    <h2 style="margin-left: 100px;">contact us</h2>
+                    <li><span>Address:</span> Pune Maharashtra</li>
+                    <li><span>Email-Id:</span>rajkhandagale809@gmail.com</li>
+                 
+                    <li><span>mobile:</span>  +91 7057407600</li>
+                </div>
+            </div>
+            <hr>
+            <div class="copy">
+                <!-- <hr> --><br>
+
+                created by <span>Raj Khandagale</span> | All right reserved.!
+            </div>
+        </div>
+    </footer>
+</div>
+
+    
+</body>
+</html>
+
+<!-- &rarr; -->
